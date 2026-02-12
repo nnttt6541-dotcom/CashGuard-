@@ -1,8 +1,3 @@
-CashGuard-main.zip
-└── CashGuard-main/
-    ├── package.json
-    └── pages/
-        └── index.js
 {
   "name": "cashguard",
   "version": "1.0.0",
@@ -17,7 +12,8 @@ CashGuard-main.zip
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
-  export default function CashGuardHome() {
+}
+export default function CashGuardHome() {
   return (
     <div style={{
       minHeight: '100vh',
@@ -41,3 +37,7 @@ CashGuard-main.zip
     </div>
   )
 }
+CashGuard-main/
+├── package.json
+└── pages/
+    └── index.js
