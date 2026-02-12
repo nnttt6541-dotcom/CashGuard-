@@ -35,9 +35,9 @@ export default function CashGuardHome() {
         </ul>
       </div>
     </div>
-  )
-}
-CashGuard-main/
+  )CashGuard-main/
 ├── package.json
 └── pages/
     └── index.js
+
+}
