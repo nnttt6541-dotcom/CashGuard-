@@ -1,43 +1,7 @@
-{
-  "name": "cashguard",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "^14.2.35",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  }
-}
-export default function CashGuardHome() {
-  return (
-    <div style={{
-      minHeight: '100vh',
-      background: '#12141D',
-      color: '#13E2F5',
-      padding: '2rem',
-      fontFamily: 'sans-serif'
-    }}>
-      <h1>CashGuard - Esports-style Personal Finance App</h1>
-      <h2>Your wealth, your shield.</h2>
-      <p>Treat your budget as a health shield and saving money as guarding your wealth to make financial management a more gamified experience.</p>
-      <div style={{ marginTop: '2rem' }}>
-        <h3>Core Features</h3>
-        <ul style={{ listStyle: 'none', padding: 0 }}>
-          <li>✅ Budget Management (Health Shield)</li>
-          <li>✅ Income & Expense Tracking</li>
-          <li>✅ Wealth Goals (Wealth Guard)</li>
-          <li>✅ Gamified Incentive Mechanisms</li>
-        </ul>
-      </div>
-    </div>
-  )CashGuard-main/
-├── package.json
-└── pages/
-    └── index.js
-
-}
+Generate a valid package.json for a Next.js project named "cashguard", version 1.0.0, with scripts "dev": "next dev", "build": "next build", "start": "next start", and dependencies next@^14.2.35, react@^18.2.0, react-dom@^18.2.0.
+Generate a Next.js page component in pages/index.js for CashGuard, an esports-style personal finance app. The page should have a dark background #12141D, neon blue #13E2F5 text, and include:
+- A heading "CashGuard - Esports-style Personal Finance App"
+- A subheading "Your wealth, your shield."
+- A paragraph explaining the app's concept
+- A list of core features: Budget Management (Health Shield), Income & Expense Tracking, Wealth Goals (Wealth Guard), Gamified Incentive Mechanisms
+Show me the correct directory structure for a Next.js app that can be deployed on Vercel, including package.json and pages/index.js.
