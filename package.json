@@ -1,8 +1,4 @@
-CashGuard-main/
-├── package.json
-└── pages/
-    └── index.js
-{
+
   "name": "cashguard",
   "version": "1.0.0",
   "private": true,
