@@ -1,7 +1,19 @@
-Generate a valid package.json for a Next.js project named "cashguard", version 1.0.0, with scripts "dev": "next dev", "build": "next build", "start": "next start", and dependencies next@^14.2.35, react@^18.2.0, react-dom@^18.2.0.
-Generate a Next.js page component in pages/index.js for CashGuard, an esports-style personal finance app. The page should have a dark background #12141D, neon blue #13E2F5 text, and include:
-- A heading "CashGuard - Esports-style Personal Finance App"
-- A subheading "Your wealth, your shield."
-- A paragraph explaining the app's concept
-- A list of core features: Budget Management (Health Shield), Income & Expense Tracking, Wealth Goals (Wealth Guard), Gamified Incentive Mechanisms
-Show me the correct directory structure for a Next.js app that can be deployed on Vercel, including package.json and pages/index.js.
+CashGuard-main/
+├── package.json
+└── pages/
+    └── index.js
+{
+  "name": "cashguard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^14.2.35",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
