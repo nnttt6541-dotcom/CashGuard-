@@ -1,7 +1,8 @@
-CashGuard/
-├── package.json
-└── pages/
-    └── index.js
+CashGuard-main.zip
+└── CashGuard-main/
+    ├── package.json
+    └── pages/
+        └── index.js
 {
   "name": "cashguard",
   "version": "1.0.0",
@@ -16,7 +17,8 @@ CashGuard/
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
-}export default function CashGuardHome() {
+}
+export default function CashGuardHome() {
   return (
     <div style={{
       minHeight: '100vh',
@@ -33,12 +35,10 @@ CashGuard/
         <ul style={{ listStyle: 'none', padding: 0 }}>
           <li>✅ 预算管理（血量护盾）</li>
           <li>✅ 收支记账</li>
-          <li>✅ 财富目标（守护财富）</li>
+          <li>✅ 财富目标（财富守护）</li>
           <li>✅ 游戏化激励机制</li>
         </ul>
       </div>
     </div>
   )
 }
-
-
