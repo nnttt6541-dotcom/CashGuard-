@@ -1,1 +1,0 @@
-Generate a valid package.json for a Next.js project named "cashguard", version 1.0.0, with scripts "dev": "next dev", "build": "next build", "start": "next start", and dependencies next@^14.2.35, react@^18.2.0, react-dom@^18.2.0.
